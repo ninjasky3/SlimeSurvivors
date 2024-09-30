@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985a541a5f9c2ea4ba1a06c5bbcb6a4d, type: 3}
+  m_Name: WhipSlime
+  m_EditorClassIdentifier: 
+  name: Whip Slime
+  slotCharUnlocked: 0
+  charData: {fileID: 11400000, guid: e69cc7067731b2d4a80834ce0cf76200, type: 2}
+  charExp: 9
+  charLevel: 2
+  startingWeapon: {fileID: 11400000, guid: de23598d9c1c73b4aa9a3c7fdf53005c, type: 2}

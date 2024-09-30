@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62da1e7ea2535cc4797107be537dd4bb, type: 3}
+  m_Name: Fireball Aura evo
+  m_EditorClassIdentifier: 
+  icon: {fileID: -97594811, guid: 5dc69dff1e305274ab37a84f57225dfb, type: 3}
+  maxLevel: 1
+  evolutionData: []
+  behaviour: FireballAura
+  baseStats:
+    name: Fire circle aura Evolution
+    description: Fireballs Evoluton
+    projectilePrefab: {fileID: 648654423237759097, guid: 7785a65d19d1ceb4e95781ca0693a619, type: 3}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 5
+    damage: 5
+    damageVariance: 2
+    area: 5
+    speed: 100
+    cooldown: 1.3
+    projectileInterval: 1
+    knockback: -1
+    number: 6
+    piercing: 999
+    maxInstances: 6
+  linearGrowth: []
+  randomGrowth: []

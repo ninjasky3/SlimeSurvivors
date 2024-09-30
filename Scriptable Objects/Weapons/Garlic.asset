@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62da1e7ea2535cc4797107be537dd4bb, type: 3}
+  m_Name: Garlic
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 565079cba4711234c8f94896b17e8960, type: 3}
+  maxLevel: 5
+  evolutionData:
+  - name: Soul Eater
+    condition: 1
+    consumes: 2
+    evolutionLevel: 5
+    catalysts:
+    - itemType: {fileID: 11400000, guid: df1aee6519869434787c1cae2d83508c, type: 2}
+      level: 5
+    outcome:
+      itemType: {fileID: 11400000, guid: 764ecc47696366f44b3cc048fd7f6563, type: 2}
+      level: 1
+  behaviour: AuraWeapon
+  baseStats:
+    name: Holy Aura
+    description: Damages nearby enemies. Reduces resistance to knockback and freeze.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 4169919635133386887, guid: ac71b6e1c02b03c40bf86e3298f3dc37, type: 3}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 5
+    damageVariance: 1
+    area: 5
+    speed: 0
+    cooldown: 1.5
+    projectileInterval: 0
+    knockback: 1
+    number: 1
+    piercing: 0
+    maxInstances: 50
+  linearGrowth:
+  - name: Holy Aura Level 2
+    description: + Area of Effect 50%. + Damage 100%
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 2.5
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Holy Aura Level 3
+    description: + Cooldown Reduction 75%. + Damage 100%
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 2.5
+    speed: 0
+    cooldown: -1
+    projectileInterval: 0
+    knockback: 1
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Holy Aura Level 4
+    description: + Cooldown Reduction 75%. + Damage 100%
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Holy Aura Level 5
+    description: + Cooldown Reduction 75%. + Damage 100%
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 2.5
+    speed: 0
+    cooldown: -1
+    projectileInterval: 0
+    knockback: 1
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  randomGrowth: []
